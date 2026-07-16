@@ -12,10 +12,10 @@ news, analysis, paper, tutorial, tool, opinion, case-study, report
 beginner, intermediate, advanced, expert
 
 ## Statistics
-- Total items: 405
-- Total concepts: 35
-- Compiled: 2.5%
-- Last compiled: 2026-07-16T11:28:48.878723+00:00
+- Total items: 409
+- Total concepts: 48
+- Compiled: 4.9%
+- Last compiled: 2026-07-16T11:52:38.808340+00:00
 
 ## Items Index
 > `[x]` = compiled, `[ ]` = pending. Grouped by domain.
@@ -31,7 +31,7 @@ beginner, intermediate, advanced, expert
 - [ ] `1073dc392166` (security) — WorkBuddy增加商汤的免费算力
 - [ ] `110089601db4` (security) — 2.EASM（外部攻击面管理）分析
 - [ ] `12d3f1b4ec74` (security) — 杜绝XZ后门！OWASP发布十大开源软件安全风险清单
-- [ ] `12fef42a2aa4` (security) — 别用 ELK了！这款开源、轻量日志存储工具，比 Loki 强很多倍？
+- [x] `12fef42a2aa4` (log-management) — 别用 ELK了！这款开源、轻量日志存储工具，比 Loki 强很多倍？
 - [ ] `134128152800.0` (security) — 中央财经委：加强国家安全基础设施建设
 - [ ] `14b25e0eb5c3` (security) — 关键信息基础设施安全监测预警技术探析
 - [ ] `14d864969998` (security) — 安全运营能力成熟度模型（SOMM）
@@ -40,7 +40,7 @@ beginner, intermediate, advanced, expert
 - [ ] `1938190bd66b` (security) — 光大银行 | 开源那些事儿-光大银行开源治理体系简介
 - [ ] `1b0f45d2f0f8` (security) — 月薪5万的项目经理，都在用AI做什么？
 - [ ] `1b5d5d1626cd` (security) — Dropbox 遭受网络钓鱼攻击导致数据泄露，暴露了客户和员工的电子邮件
-- [ ] `1d969fa66a40` (security) — 混沌模式下的研发安全解决之道
+- [x] `1d969fa66a40` (devsecops) — 混沌模式下的研发安全解决之道
 - [x] `1e869f307ecc` (threat-intelligence) — 微步在线薛锋：攻击者迈入“工业化” 防守方亟待走出“农业时代”
 - [ ] `1eca4a922d72` (security) — DFIR：数字取证与事件应急响应
 - [ ] `201bab5565d9` (security) — 如何建立有效的安全策略
@@ -49,13 +49,13 @@ beginner, intermediate, advanced, expert
 - [ ] `22043166e55b` (security) — 我国首项关基设施安全保护标准解析
 - [ ] `24fe96558344` (security) — 吴云坤：立足加速攻防OODA闭环 探索AI驱动安全
 - [ ] `25fdee3a5272` (security) — RASP技术上的命令执行攻防探索
-- [ ] `262220bf10d8` (security) — 国家网信办就《互联网信息服务管理办法（修订草案征求意见稿）》再次公开征求意见
+- [x] `262220bf10d8` (internet-governance) — 国家网信办就《互联网信息服务管理办法（修订草案征求意见稿）》再次公开征求意见
 - [ ] `2ece839fcac1` (security) — 基于风险导向的信息安全审计方法运用
 - [ ] `332803c594cc` (security) — 6月1日正式实施《网络安全等级保护数据安全基本要求》
 - [ ] `3381eeaee1a5` (security) — Cloudflare 免费模型调用
 - [ ] `343cab705427` (security) — 2022年数字安全大事记
 - [ ] `353020803632` (security) — 国家法律法规
-- [ ] `358bb8334d53` (security) — 《网络安全和信息化》杂志2026年第7期 目录
+- [x] `358bb8334d53` (periodical-index) — 《网络安全和信息化》杂志2026年第7期 目录
 - [ ] `398e3ab6a596` (security) — 敏感信息自动化挖掘检测工具-DigDeep
 - [ ] `39905d1e7deb` (security) — 欢迎新Buddy：DataBuddy
 - [ ] `39ac28cdda04` (security) — 2022年工业控制网络安全态势白皮书
@@ -72,7 +72,7 @@ beginner, intermediate, advanced, expert
 - [ ] `4bf041f080c1` (security) — Metasploit从入门到入坟
 - [x] `512e4cf7137d` (penetration-testing) — “首发，前沿大模型突破渗透测试新范式”——绿盟智能渗透测试系统2.0正式发布
 - [ ] `538c8bc13b16` (security) — 国内四大UEBA解决方案
-- [ ] `53c6022766fd` (security) — 金监局就网络安全办法征求意见、上海启动网络和数据安全检查、7项网络安全国标发布｜一周合规大事
+- [x] `53c6022766fd` (compliance-regulation) — 金监局就网络安全办法征求意见、上海启动网络和数据安全检查、7项网络安全国标发布｜一周合规大事
 - [ ] `57d3df0e57e1` (security) — 真的没有人，能把攻击面讲得如SAFE这般清晰！
 - [ ] `5813ae1c2b4b` (security) — 攻防演练 | 记一次打穿某车企全过程
 - [ ] `5900ea993ff4` (security) — BAS入侵和攻击模拟实践
@@ -80,7 +80,7 @@ beginner, intermediate, advanced, expert
 - [ ] `5eb6539877fa` (security) — 0xL4k1d
 - [ ] `60481f665fe4` (security) — 面向数据安全的应用层访问控制方案探索
 - [ ] `60e31710aed2` (security) — 实用攻击面管理系统设计指南
-- [ ] `6154f9ea945f` (security) — 售前转销售后，我才知道客户根本不关心方案多专业
+- [x] `6154f9ea945f` (security-sales) — 售前转销售后，我才知道客户根本不关心方案多专业
 - [ ] `62d5bf10ca39` (security) — 以攻促防：企业蓝军建设思考
 - [ ] `63ee19d4d96e` (security) — 公安部发布六项网络安全等级保护新标准
 - [ ] `646ca5eabe2b` (security) — 2025 网络安全职业路径全指南
@@ -116,11 +116,11 @@ beginner, intermediate, advanced, expert
 - [ ] `9f042b4c1a99` (security) — 国家标准《信息安全技术 关键信息基础设施网络安全应急体系框架》公开征求意见
 - [ ] `a34caae4b152` (security) — 免费的攻击面管理平台-森罗
 - [ ] `a41f69cda708` (security) — 努力没用，决定你上限的，是七层思维层级
-- [ ] `a4ff8cbd3c74` (security) — Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402
-- [ ] `a8ea6cb5ebc9` (security) — 元提示浅析
+- [x] `a4ff8cbd3c74` (api-monetization) — Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402
+- [x] `a8ea6cb5ebc9` (prompt-engineering) — 元提示浅析
 - [x] `a9d3487a95f5` (security-philosophy) — 网络安全真的很无聊
 - [ ] `ab7cf02968e3` (security) — 空格的键盘的文字分享
-- [ ] `afe527e5fc37` (security) — 多个AI一起干活，真的比一个最强模型更靠谱吗？
+- [x] `afe527e5fc37` (multi-agent-systems) — 多个AI一起干活，真的比一个最强模型更靠谱吗？
 - [ ] `b14eb9d2ddd5` (security) — 收藏！国内标准化网站全汇总，再也不用东奔西跑了
 - [ ] `b16257186bf3` (security) — 网络安全行业的大洗牌已经开始！
 - [ ] `b1c3452a4100` (security) — Web 渗透测试入坑必备指南
@@ -128,7 +128,7 @@ beginner, intermediate, advanced, expert
 - [ ] `b355d460ac62` (security) — Android App半自动化静态漏洞挖掘技术分析
 - [ ] `b3c2edd2f442` (security) — ISO/IEC 42001:2023 人工智能管理体系认证课程介绍（中文版）
 - [ ] `b4e771c1c05d` (security) — 专题｜全面深度解读“零信任”
-- [ ] `b5e3d65f73d2` (security) — 又有3家银行App被通报，民生银行罕见涉及5项问题！
+- [x] `b5e3d65f73d2` (app-security-compliance) — 又有3家银行App被通报，民生银行罕见涉及5项问题！
 - [ ] `bdef3d01b824` (security) — 日志的艺术
 - [ ] `c024d9c46e6a` (security) — 关于大型互联网企业DevSecOps体系构建的总结与思考
 - [ ] `c1b9a4aec87d` (security) — 《网络安全审查办法》涉及的数据安全思考
@@ -445,35 +445,55 @@ beginner, intermediate, advanced, expert
 - [ ] `f9058e8480f3` (startup) — Get笔记 + 腾讯iMa，玩转个人知识库
 - [ ] `fa24f7ea438f` (startup) — [PPT]企业级项目管理体系构建的方法
 
-### uncategorized (2)
+### uncategorized (6)
 
 - [ ] `0684a8ff48da` (-) — 想玩Loop Engineering，可以先从这6个Hook玩法开始。
+- [ ] `4201940cd083` (-) — 国家信息安全漏洞库
+- [ ] `4f3c7d046339` (-) — ossu / computer-science
+- [ ] `898dd96c073c` (-) — 年内8家私募自购超1.6亿元
+- [ ] `8c40203b708e` (-) — 多家银行披露日均Token消耗量！AI大模型应用成本如何控制？
 - [ ] `c7500134ab49` (-) — 我的个人站点开通了
 
 ## Concepts Index
 > Grouped by domain. Count = source_items count.
 
 
-### security (14)
+### security (31)
 
+- `ai-agent` (2 items) — AI Agent
 - `ai-driven-attack` (1 items) — AI 驱动攻击
 - `ai-driven-security` (1 items) — AI 驱动安全
+- `api-monetization` (1 items) — API 货币化
+- `app-security-compliance` (1 items) — App 安全合规
+- `banking` (2 items) — 银行业务
 - `ciso` (1 items) — CISO
+- `compliance-regulation` (2 items) — 合规与监管
 - `defense-modernization` (1 items) — 防守现代化
+- `devsecops` (1 items) — DevSecOps
+- `financial-regulation` (3 items) — 金融监管
+- `industry-news` (2 items) — 行业资讯
+- `internet-governance` (1 items) — 互联网治理
 - `llm-security` (1 items) — 大模型安全
-- `national-standards` (1 items) — 国标
+- `log-management` (1 items) — 日志管理
+- `meta-prompting` (1 items) — 元提示
+- `multi-agent-systems` (1 items) — 多智能体系统
+- `national-standards` (2 items) — 国家标准
 - `network-security-equipment` (1 items) — 网络安全设备
+- `observability` (1 items) — 可观测性
+- `payment-gateway` (1 items) — 支付网关
 - `penetration-testing` (1 items) — 渗透测试
 - `procurement` (1 items) — 采购
-- `security-fundamentals` (1 items) — 安全基础
-- `security-mindset` (1 items) — 安全思维
+- `prompt-engineering` (1 items) — 提示词工程
+- `security-fundamentals` (2 items) — 安全基础
+- `security-mindset` (2 items) — 安全思维
+- `security-periodical` (1 items) — 安全期刊
+- `security-sales` (1 items) — 安全售前与销售
 - `standards` (1 items) — 标准规范
 - `threat-intelligence` (1 items) — 威胁情报
 - `zero-trust-architecture` (1 items) — 零信任架构
 
-### ai (8)
+### ai (7)
 
-- `ai-agent` (1 items) — AI Agent
 - `ai-design` (1 items) — AI设计
 - `ai-development` (1 items) — AI 开发
 - `automated-research` (1 items) — 自动化研究
@@ -482,10 +502,8 @@ beginner, intermediate, advanced, expert
 - `developer-tools` (1 items) — 开发者工具
 - `openai` (1 items) — OpenAI
 
-### finance (5)
+### finance (3)
 
-- `banking` (1 items) — 银行业
-- `financial-regulation` (1 items) — 金融监管
 - `fintech` (1 items) — 金融科技
 - `investment` (1 items) — 投资
 - `securities` (1 items) — 证券业
@@ -499,9 +517,8 @@ beginner, intermediate, advanced, expert
 
 - `technical-principles` (1 items) — 技术原理
 
-### general (2)
+### general (1)
 
-- `industry-news` (1 items) — 行业资讯
 - `tutorials` (1 items) — 教程实操
 
 ### startup (3)

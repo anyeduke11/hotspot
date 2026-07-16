@@ -1,6 +1,166 @@
 {
   "nodes": [
     {
+      "id": "industry-news",
+      "label": "行业资讯",
+      "domain": "security",
+      "count": 2,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "security-periodical",
+      "label": "安全期刊",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "compliance-regulation",
+      "label": "合规与监管",
+      "domain": "security",
+      "count": 2,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "internet-governance",
+      "label": "互联网治理",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "security-mindset",
+      "label": "安全思维",
+      "domain": "security",
+      "count": 2,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "security-sales",
+      "label": "安全售前与销售",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "meta-prompting",
+      "label": "元提示",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "prompt-engineering",
+      "label": "提示词工程",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "security-fundamentals",
+      "label": "安全基础",
+      "domain": "security",
+      "count": 2,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "devsecops",
+      "label": "DevSecOps",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "observability",
+      "label": "可观测性",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "log-management",
+      "label": "日志管理",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "ai-agent",
+      "label": "AI Agent",
+      "domain": "security",
+      "count": 2,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "multi-agent-systems",
+      "label": "多智能体系统",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "financial-regulation",
+      "label": "金融监管",
+      "domain": "security",
+      "count": 3,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "banking",
+      "label": "银行业务",
+      "domain": "security",
+      "count": 2,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "app-security-compliance",
+      "label": "App 安全合规",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "payment-gateway",
+      "label": "支付网关",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "api-monetization",
+      "label": "API 货币化",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "national-standards",
+      "label": "国家标准",
+      "domain": "security",
+      "count": 2,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
       "id": "claude",
       "label": "Claude",
       "domain": "ai",
@@ -17,25 +177,9 @@
       "type": "concept"
     },
     {
-      "id": "financial-regulation",
-      "label": "金融监管",
-      "domain": "finance",
-      "count": 1,
-      "wiki": "hotspot",
-      "type": "concept"
-    },
-    {
       "id": "llm-security",
       "label": "大模型安全",
       "domain": "security",
-      "count": 1,
-      "wiki": "hotspot",
-      "type": "concept"
-    },
-    {
-      "id": "banking",
-      "label": "银行业",
-      "domain": "finance",
       "count": 1,
       "wiki": "hotspot",
       "type": "concept"
@@ -153,30 +297,6 @@
       "type": "concept"
     },
     {
-      "id": "security-fundamentals",
-      "label": "安全基础",
-      "domain": "security",
-      "count": 1,
-      "wiki": "hotspot",
-      "type": "concept"
-    },
-    {
-      "id": "security-mindset",
-      "label": "安全思维",
-      "domain": "security",
-      "count": 1,
-      "wiki": "hotspot",
-      "type": "concept"
-    },
-    {
-      "id": "national-standards",
-      "label": "国标",
-      "domain": "security",
-      "count": 1,
-      "wiki": "hotspot",
-      "type": "concept"
-    },
-    {
       "id": "developer-tools",
       "label": "开发者工具",
       "domain": "ai",
@@ -241,14 +361,6 @@
       "type": "concept"
     },
     {
-      "id": "ai-agent",
-      "label": "AI Agent",
-      "domain": "ai",
-      "count": 1,
-      "wiki": "hotspot",
-      "type": "concept"
-    },
-    {
       "id": "securities",
       "label": "证券业",
       "domain": "finance",
@@ -260,14 +372,6 @@
       "id": "technical-principles",
       "label": "技术原理",
       "domain": "dev",
-      "count": 1,
-      "wiki": "hotspot",
-      "type": "concept"
-    },
-    {
-      "id": "industry-news",
-      "label": "行业资讯",
-      "domain": "general",
       "count": 1,
       "wiki": "hotspot",
       "type": "concept"
@@ -451,8 +555,44 @@
       "type": "related"
     },
     {
-      "source": "ciso",
+      "source": "devsecops",
       "target": "security-fundamentals",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "app-security-compliance",
+      "target": "banking",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "app-security-compliance",
+      "target": "financial-regulation",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "banking",
+      "target": "financial-regulation",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "compliance-regulation",
+      "target": "financial-regulation",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "compliance-regulation",
+      "target": "national-standards",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "financial-regulation",
+      "target": "national-standards",
       "weight": 1,
       "type": "related"
     },
@@ -487,9 +627,21 @@
       "type": "related"
     },
     {
+      "source": "ai-agent",
+      "target": "multi-agent-systems",
+      "weight": 1,
+      "type": "related"
+    },
+    {
       "source": "security-fundamentals",
       "target": "zero-trust-architecture",
-      "weight": 2,
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "security-mindset",
+      "target": "security-sales",
+      "weight": 1,
       "type": "related"
     },
     {
@@ -613,6 +765,12 @@
       "type": "related"
     },
     {
+      "source": "api-monetization",
+      "target": "payment-gateway",
+      "weight": 1,
+      "type": "related"
+    },
+    {
       "source": "security-fundamentals",
       "target": "security-mindset",
       "weight": 1,
@@ -633,6 +791,30 @@
     {
       "source": "ai-agent",
       "target": "openai",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "meta-prompting",
+      "target": "prompt-engineering",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "log-management",
+      "target": "observability",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "compliance-regulation",
+      "target": "internet-governance",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "industry-news",
+      "target": "security-periodical",
       "weight": 1,
       "type": "related"
     },
