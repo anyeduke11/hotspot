@@ -1,191 +1,712 @@
 {
   "nodes": [
     {
-      "id": "team-management",
-      "label": "团队管理",
-      "type": "concept",
+      "id": "claude",
+      "label": "Claude",
+      "domain": "ai",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "leadership-anti-patterns",
-      "label": "领导力反模式",
-      "type": "concept",
+      "id": "knowledge-management",
+      "label": "知识管理",
+      "domain": "startup",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "penetration-testing",
-      "label": "渗透测试",
-      "type": "concept",
+      "id": "financial-regulation",
+      "label": "金融监管",
+      "domain": "finance",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
-    },
-    {
-      "id": "ai-driven-security",
-      "label": "AI 驱动安全",
-      "type": "concept",
-      "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
       "id": "llm-security",
       "label": "大模型安全",
-      "type": "concept",
+      "domain": "security",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "ai-development",
-      "label": "AI 开发",
-      "type": "concept",
+      "id": "banking",
+      "label": "银行业",
+      "domain": "finance",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "developer-tools",
-      "label": "开发者工具",
-      "type": "concept",
+      "id": "ai-driven-security",
+      "label": "AI 驱动安全",
+      "domain": "security",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "security-fundamentals",
-      "label": "安全基础",
-      "type": "concept",
+      "id": "leadership-anti-patterns",
+      "label": "领导力反模式",
+      "domain": "business",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "security-mindset",
-      "label": "安全思维",
-      "type": "concept",
+      "id": "ciso",
+      "label": "CISO",
+      "domain": "security",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "network-security-equipment",
-      "label": "网络安全设备",
-      "type": "concept",
+      "id": "investment",
+      "label": "投资",
+      "domain": "finance",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "procurement",
-      "label": "采购",
-      "type": "concept",
+      "id": "standards",
+      "label": "标准规范",
+      "domain": "security",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
-    },
-    {
-      "id": "zero-trust-architecture",
-      "label": "零信任架构",
-      "type": "concept",
-      "wiki": "hotspot",
-      "count": 1
-    },
-    {
-      "id": "ai-agent",
-      "label": "AI Agent",
-      "type": "concept",
-      "wiki": "hotspot",
-      "count": 1
-    },
-    {
-      "id": "automated-research",
-      "label": "自动化研究",
-      "type": "concept",
-      "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
       "id": "threat-intelligence",
       "label": "威胁情报",
-      "type": "concept",
+      "domain": "security",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
     },
     {
-      "id": "ai-driven-attack",
-      "label": "AI 驱动攻击",
-      "type": "concept",
+      "id": "fintech",
+      "label": "金融科技",
+      "domain": "finance",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
+    },
+    {
+      "id": "automated-research",
+      "label": "自动化研究",
+      "domain": "ai",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "work-report",
+      "label": "工作汇报",
+      "domain": "startup",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "team-management",
+      "label": "团队管理",
+      "domain": "business",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "penetration-testing",
+      "label": "渗透测试",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "tutorials",
+      "label": "教程实操",
+      "domain": "general",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "procurement",
+      "label": "采购",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "learning-methods",
+      "label": "学习方法",
+      "domain": "startup",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "security-fundamentals",
+      "label": "安全基础",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "security-mindset",
+      "label": "安全思维",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "national-standards",
+      "label": "国标",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "developer-tools",
+      "label": "开发者工具",
+      "domain": "ai",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "ai-design",
+      "label": "AI设计",
+      "domain": "ai",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
     },
     {
       "id": "defense-modernization",
       "label": "防守现代化",
-      "type": "concept",
+      "domain": "security",
+      "count": 1,
       "wiki": "hotspot",
-      "count": 1
+      "type": "concept"
+    },
+    {
+      "id": "zero-trust-architecture",
+      "label": "零信任架构",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "ai-driven-attack",
+      "label": "AI 驱动攻击",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "domain": "ai",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "ai-development",
+      "label": "AI 开发",
+      "domain": "ai",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "network-security-equipment",
+      "label": "网络安全设备",
+      "domain": "security",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "ai-agent",
+      "label": "AI Agent",
+      "domain": "ai",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "securities",
+      "label": "证券业",
+      "domain": "finance",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "technical-principles",
+      "label": "技术原理",
+      "domain": "dev",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "industry-news",
+      "label": "行业资讯",
+      "domain": "general",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
+    },
+    {
+      "id": "deepseek",
+      "label": "DeepSeek",
+      "domain": "ai",
+      "count": 1,
+      "wiki": "hotspot",
+      "type": "concept"
     }
   ],
   "edges": [
     {
+      "source": "network-security-equipment",
+      "target": "procurement",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "security-fundamentals",
+      "target": "threat-intelligence",
+      "weight": 27,
+      "type": "related"
+    },
+    {
+      "source": "penetration-testing",
+      "target": "security-fundamentals",
+      "weight": 5,
+      "type": "related"
+    },
+    {
+      "source": "penetration-testing",
+      "target": "threat-intelligence",
+      "weight": 12,
+      "type": "related"
+    },
+    {
+      "source": "defense-modernization",
+      "target": "penetration-testing",
+      "weight": 2,
+      "type": "related"
+    },
+    {
       "source": "ai-agent",
-      "target": "automated-research",
-      "type": "related",
-      "weight": 1
+      "target": "developer-tools",
+      "weight": 22,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "ai-driven-attack",
+      "weight": 7,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "penetration-testing",
+      "weight": 7,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "developer-tools",
+      "weight": 2,
+      "type": "related"
+    },
+    {
+      "source": "developer-tools",
+      "target": "penetration-testing",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "penetration-testing",
+      "weight": 3,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "ai-development",
+      "weight": 28,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "leadership-anti-patterns",
+      "weight": 9,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "security-fundamentals",
+      "weight": 3,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "security-fundamentals",
+      "weight": 2,
+      "type": "related"
+    },
+    {
+      "source": "llm-security",
+      "target": "security-fundamentals",
+      "weight": 2,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "llm-security",
+      "weight": 5,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "llm-security",
+      "weight": 6,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "technical-principles",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "developer-tools",
+      "target": "llm-security",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "developer-tools",
+      "target": "technical-principles",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "technical-principles",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "llm-security",
+      "target": "technical-principles",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "claude",
+      "weight": 1,
+      "type": "related"
     },
     {
       "source": "ai-development",
       "target": "developer-tools",
-      "type": "related",
-      "weight": 1
+      "weight": 8,
+      "type": "related"
     },
     {
-      "source": "ai-driven-attack",
-      "target": "defense-modernization",
-      "type": "related",
-      "weight": 1
+      "source": "procurement",
+      "target": "security-fundamentals",
+      "weight": 1,
+      "type": "related"
     },
     {
-      "source": "ai-driven-attack",
-      "target": "threat-intelligence",
-      "type": "related",
-      "weight": 1
-    },
-    {
-      "source": "ai-driven-security",
-      "target": "llm-security",
-      "type": "related",
-      "weight": 1
-    },
-    {
-      "source": "ai-driven-security",
-      "target": "penetration-testing",
-      "type": "related",
-      "weight": 1
-    },
-    {
-      "source": "defense-modernization",
-      "target": "threat-intelligence",
-      "type": "related",
-      "weight": 1
+      "source": "developer-tools",
+      "target": "security-fundamentals",
+      "weight": 2,
+      "type": "related"
     },
     {
       "source": "leadership-anti-patterns",
       "target": "team-management",
-      "type": "related",
-      "weight": 1
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ciso",
+      "target": "security-fundamentals",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "deepseek",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "defense-modernization",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "defense-modernization",
+      "weight": 3,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "automated-research",
+      "weight": 5,
+      "type": "related"
+    },
+    {
+      "source": "defense-modernization",
+      "target": "security-fundamentals",
+      "weight": 5,
+      "type": "related"
+    },
+    {
+      "source": "security-fundamentals",
+      "target": "zero-trust-architecture",
+      "weight": 2,
+      "type": "related"
+    },
+    {
+      "source": "defense-modernization",
+      "target": "securities",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "securities",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "developer-tools",
+      "target": "team-management",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "defense-modernization",
+      "target": "zero-trust-architecture",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "security-fundamentals",
+      "weight": 3,
+      "type": "related"
+    },
+    {
+      "source": "leadership-anti-patterns",
+      "target": "security-fundamentals",
+      "weight": 2,
+      "type": "related"
+    },
+    {
+      "source": "national-standards",
+      "target": "standards",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "defense-modernization",
+      "target": "developer-tools",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "threat-intelligence",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "defense-modernization",
+      "target": "threat-intelligence",
+      "weight": 2,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "defense-modernization",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "banking",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "threat-intelligence",
+      "target": "zero-trust-architecture",
+      "weight": 4,
+      "type": "related"
+    },
+    {
+      "source": "team-management",
+      "target": "threat-intelligence",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "team-management",
+      "target": "zero-trust-architecture",
+      "weight": 1,
+      "type": "related"
     },
     {
       "source": "llm-security",
       "target": "penetration-testing",
-      "type": "related",
-      "weight": 1
+      "weight": 2,
+      "type": "related"
     },
     {
-      "source": "network-security-equipment",
-      "target": "procurement",
-      "type": "related",
-      "weight": 1
+      "source": "ai-agent",
+      "target": "industry-news",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-security",
+      "target": "penetration-testing",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-driven-security",
+      "target": "llm-security",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "team-management",
+      "target": "work-report",
+      "weight": 1,
+      "type": "related"
     },
     {
       "source": "security-fundamentals",
       "target": "security-mindset",
-      "type": "related",
-      "weight": 1
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "security-fundamentals",
+      "target": "team-management",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "investment",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "openai",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "penetration-testing",
+      "target": "zero-trust-architecture",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "developer-tools",
+      "weight": 2,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "knowledge-management",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "knowledge-management",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "tutorials",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "ai-design",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "penetration-testing",
+      "target": "tutorials",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-design",
+      "target": "penetration-testing",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-design",
+      "target": "tutorials",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "automated-research",
+      "target": "learning-methods",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "leadership-anti-patterns",
+      "target": "learning-methods",
+      "weight": 1,
+      "type": "related"
+    },
+    {
+      "source": "ai-agent",
+      "target": "threat-intelligence",
+      "weight": 1,
+      "type": "related"
     }
   ]
 }

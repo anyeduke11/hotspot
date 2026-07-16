@@ -1,0 +1,177 @@
+{
+  "ai-agent": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "ai-design": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "ai-development": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "ai-driven-attack": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "ai-driven-security": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "automated-research": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "banking": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "ciso": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "claude": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "defense-modernization": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "deepseek": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "developer-tools": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "financial-regulation": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "fintech": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "industry-news": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "investment": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "knowledge-management": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "leadership-anti-patterns": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "learning-methods": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "llm-security": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "national-standards": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "network-security-equipment": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "openai": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "penetration-testing": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "procurement": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "securities": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "security-fundamentals": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "security-mindset": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "standards": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "team-management": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "technical-principles": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "threat-intelligence": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "tutorials": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "work-report": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  },
+  "zero-trust-architecture": {
+    "mastery": 0,
+    "last_tested": null,
+    "test_count": 0
+  }
+}
