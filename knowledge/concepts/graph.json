@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "team-management",
+      "label": "团队管理",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "leadership-anti-patterns",
+      "label": "领导力反模式",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "penetration-testing",
+      "label": "渗透测试",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "ai-driven-security",
+      "label": "AI 驱动安全",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "llm-security",
+      "label": "大模型安全",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "ai-development",
+      "label": "AI 开发",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "developer-tools",
+      "label": "开发者工具",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "security-fundamentals",
+      "label": "安全基础",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "security-mindset",
+      "label": "安全思维",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "network-security-equipment",
+      "label": "网络安全设备",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "procurement",
+      "label": "采购",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "zero-trust-architecture",
+      "label": "零信任架构",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "ai-agent",
+      "label": "AI Agent",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "automated-research",
+      "label": "自动化研究",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "threat-intelligence",
+      "label": "威胁情报",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "ai-driven-attack",
+      "label": "AI 驱动攻击",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    },
+    {
+      "id": "defense-modernization",
+      "label": "防守现代化",
+      "type": "concept",
+      "wiki": "hotspot",
+      "count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai-agent",
+      "target": "automated-research",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "ai-development",
+      "target": "developer-tools",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "defense-modernization",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "ai-driven-attack",
+      "target": "threat-intelligence",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "ai-driven-security",
+      "target": "llm-security",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "ai-driven-security",
+      "target": "penetration-testing",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "defense-modernization",
+      "target": "threat-intelligence",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "leadership-anti-patterns",
+      "target": "team-management",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "llm-security",
+      "target": "penetration-testing",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "network-security-equipment",
+      "target": "procurement",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "security-fundamentals",
+      "target": "security-mindset",
+      "type": "related",
+      "weight": 1
+    }
+  ]
+}
