@@ -14,7 +14,7 @@ compiled: false                     # defaults to false
 # Classification (4 dimensions)
 domain: "security"                  # see _MAP.md for valid domains
 topic: "zero-trust"                 # free-form, auto-suggested
-type: "news"                        # news | analysis | paper | tutorial | tool | opinion
+type: "news"                        # news | analysis | paper | tutorial | tool | opinion | github
 difficulty: "intermediate"          # beginner | intermediate | advanced | expert
 
 # Tags (multi-dimensional)
@@ -34,8 +34,26 @@ review_count: 0
 # Related items
 related_items:
   - "d4e5f6"
+
+# CodeGarden reverse reference (v1.5+ / Phase 2a, optional)
+project_id: null                    # cg_projects.id if item has been converted to a CodeGarden project
+                                    # Only written when item is converted via POST /api/codegarden/from-knowledge
+                                    # Existing 409 items do NOT require backfill (decision 8 of Phase 2a spec)
+                                    # No FK constraint; application layer maintains consistency
 ---
 ```
+
+### `project_id` 字段说明 (v1.5+ / Phase 2a Task A3)
+
+- **字段类型**: `string | null`（可选）
+- **写入时机**: 仅当 item 通过 `POST /api/codegarden/from-knowledge` 转化为 cg_projects 时写入
+- **值来源**: 新创建的 `cg_projects.id`（TEXT UUID）
+- **不强制回填**: 既有 409 items 不需要回填此字段（决策 8）
+- **反向查询**: `cg_projects.source_item_id` 是主反向溯源字段；`project_id` 是 item 侧的辅助引用
+- **一致性**: 无数据库外键约束，应用层（CodegardenKnowledgeBridge）负责双向写入
+- **删除行为**: 删除 cg_projects 记录不会自动清除 item 的 `project_id`（best-effort 清理由 watchdog 负责）
+
+详见 [Phase 2a spec](../.trae/specs/phase2a-codegarden-mvp/spec.md) §决策 8/9 和 [CodeGarden PRD v2.0](../docs/CodeGarden_PRD_v2.0.md)。
 
 ## Concept Schema
 
